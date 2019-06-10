@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "dengine_jwtPrivateKey",
+  "db": "dengine_db"
+}

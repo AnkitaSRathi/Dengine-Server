@@ -1,0 +1,111 @@
+{
+    "Transmission": {
+        "TransmissionHeader": "TransmissionHeader",
+        "TransmissionBody": {
+            "GLogXMLElement": {
+                "ItemMaster": {
+                    "Item": {
+                        "ItemName": "ItemName",
+                        "IsDrawback": "IsDrawback",
+                        "Description": "Description",
+                        "FlexFieldDates": "FlexFieldDates",
+                        "TransactionCode": "TransactionCode",
+                        "ItemGid": {
+                            "Gid": {
+                                "Xid": "Xid",
+                                "DomainName": "DomainName"
+                            }
+                        },
+                        "FlexFieldNumbers": "FlexFieldNumbers",
+                        "Remark": {
+                            "RemarkText": "RemarkText",
+                            "RemarkLevel": "RemarkLevel",
+                            "RemarkSequence": "RemarkSequence",
+                            "TransactionCode": "TransactionCode",
+                            "RemarkQualifierGid": {
+                                "Gid": {
+                                    "Xid": "Xid",
+                                    "DomainName": "DomainName"
+                                }
+                            }
+                        },
+                        "Refnum": {
+                            "RefnumValue": "RefnumValue",
+                            "RefnumQualifierGid": {
+                                "Gid": {
+                                    "Xid": "Xid",
+                                    "DomainName": "DomainName"
+                                }
+                            }
+                        },
+                        "FlexFieldStrings": {
+                            "Attribute5": "Attribute5",
+                            "Attribute8": "Attribute8",
+                            "Attribute6": "Attribute6",
+                            "Attribute7": "Attribute7"
+                        },
+                        "GtmItemClassification": {
+                            "ClassificationCode": "ClassificationCode",
+                            "ClassificationStatus": "ClassificationStatus",
+                            "GtmProdClassTypeGid": {
+                                "Gid": {
+                                    "Xid": "Xid"
+                                }
+                            }
+                        },
+                        "PricePerUnit": {
+                            "FinancialAmount": {
+                                "MonetaryAmount": "MonetaryAmount",
+                                "GlobalCurrencyCode": "GlobalCurrencyCode",
+                                "FuncCurrencyAmount": "FuncCurrencyAmount"
+                            }
+                        }
+                    },
+                    "Packaging": {
+                        "Description": "Description",
+                        "IsHazardous": "IsHazardous",
+                        "FlexFieldDates": "FlexFieldDates",
+                        "FlexFieldStrings": "FlexFieldStrings",
+                        "FlexFieldNumbers": "FlexFieldNumbers",
+                        "Refnum": {
+                            "RefnumValue": "RefnumValue",
+                            "RefnumQualifierGid": {
+                                "Gid": {
+                                    "Xid": "Xid",
+                                    "DomainName": "DomainName"
+                                }
+                            }
+                        },
+                        "IsDefaultPackaging": "IsDefaultPackaging",
+                        "IsAllowMixedFreight": "IsAllowMixedFreight",
+                        "IsHandlingUnitStackable": "IsHandlingUnitStackable",
+                        "PackagedItemGid": {
+                            "Gid": {
+                                "Xid": "Xid",
+                                "DomainName": "DomainName"
+                            }
+                        },
+                        "PackageShipUnitWeightVolume": {
+                            "Weight": {
+                                "WeightValue": "WeightValue",
+                                "WeightUOMGid": {
+                                    "Gid": {
+                                        "Xid": "Xid"
+                                    }
+                                }
+                            },
+                            "Volume": {
+                                "VolumeValue": "VolumeValue",
+                                "VolumeUOMGid": {
+                                    "Gid": {
+                                        "Xid": "Xid"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

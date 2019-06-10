@@ -1,0 +1,4 @@
+{
+  "jwtPrivateKey": "asdf",
+  "db": "mongodb://abhishek:abhishek123@ds013881.mlab.com:13881/dengine"
+}
